@@ -1,0 +1,115 @@
+﻿div#header div {
+    background-color: #74b9ff;
+    padding: 1rem;
+}
+
+.student {
+    border: 1px solid #ccc;
+    padding: 2rem;
+    margin-bottom: 10px;
+    flex-grow: 1;
+    height: fit-content;
+}
+.student-list1 {
+    flex-grow:1;
+}
+.student-list {
+    flex-grow: 2;
+}
+
+.student-container {
+    display: flex;
+    gap: 3rem;
+}
+
+body {
+    font-family: "Manrope", sans-serif !important;
+    background-color:var(--background) !important;
+    padding-bottom:5rem;
+}
+
+.datarow {
+    padding: 1rem;
+    background-color: white;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+
+.square {
+    border: 1px solid #e2e2e2;
+    padding: 0 5rem 3rem !important;
+    background-color: #eeeeee;
+    margin-top: 2rem;
+}
+
+.hide{
+    display:none;
+}
+.display {
+    display: block;
+}
+
+
+:root {
+    --primary-color: #202020;
+    --secondary-color: #EA6A47;
+    --blue: #1C4E80;
+    --turquese: #A5D8DD;
+    --skublue: #0091D5;
+    --background: #eff5f9;
+}
+.navbar-top {
+    background-color: var(--primary-color); /* Color de fondo negro */
+    width: 100%; /* Ancho completo */
+    padding: 0; /* Eliminar relleno */
+}
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+h1.title {
+    font-size: 2rem;
+    margin: 2rem 0;
+    padding: 7px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 1rem;
+    font-weight: 900;
+}
+h1.title i:before {
+    font-size: 1rem;
+}
+h5.subtitles {
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+.row.box {
+    background-color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.shadow {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#chkCourses tr td {
+    padding: 10px 5px;
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+.add-students {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+div#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
